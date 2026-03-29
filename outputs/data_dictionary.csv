@@ -1,0 +1,35 @@
+column_name,dtype,null_count,null_pct,n_unique,description
+hotel,object,0,0.0,2,Tipe hotel (Resort/City)
+is_canceled,int64,0,0.0,2,"Status pembatalan booking (1=batal, 0=tidak)"
+lead_time,int64,0,0.0,478,Jumlah hari antara booking dibuat dan check-in
+arrival_date_year,int64,0,0.0,3,Tahun kedatangan
+arrival_date_month,object,0,0.0,12,Bulan kedatangan
+arrival_date_week_number,int64,0,0.0,53,Minggu keberapa dalam tahun saat kedatangan
+arrival_date_day_of_month,int64,0,0.0,31,Tanggal kedatangan
+stays_in_weekend_nights,int64,0,0.0,17,Jumlah malam akhir pekan
+stays_in_week_nights,int64,0,0.0,33,Jumlah malam weekday
+adults,int64,0,0.0,14,Jumlah tamu dewasa
+children,float64,0,0.0,5,Jumlah tamu anak
+babies,int64,0,0.0,5,Jumlah tamu bayi
+meal,object,0,0.0,5,Jenis paket makan
+market_segment,object,0,0.0,8,Segmen pasar pemesanan
+distribution_channel,object,0,0.0,5,Kanal distribusi pemesanan
+is_repeated_guest,int64,0,0.0,2,Apakah tamu pernah menginap sebelumnya
+previous_cancellations,int64,0,0.0,15,Jumlah pembatalan sebelumnya
+previous_bookings_not_canceled,int64,0,0.0,73,Jumlah booking sebelumnya yang tidak batal
+reserved_room_type,object,0,0.0,9,Tipe kamar yang dipesan
+assigned_room_type,object,0,0.0,11,Tipe kamar yang diberikan
+booking_changes,int64,0,0.0,19,Jumlah perubahan booking
+deposit_type,object,0,0.0,3,Jenis deposit
+days_in_waiting_list,int64,0,0.0,127,Jumlah hari di waiting list
+customer_type,object,0,0.0,4,Jenis pelanggan
+adr,float64,0,0.0,8865,Average Daily Rate
+required_car_parking_spaces,int64,0,0.0,5,Jumlah slot parkir yang diminta
+total_of_special_requests,int64,0,0.0,6,Jumlah permintaan khusus
+reservation_status,object,0,0.0,3,Status reservasi akhir
+reservation_status_date,datetime64[ns],0,0.0,926,Tanggal update status reservasi
+total_guests,float64,0,0.0,14,Total tamu dalam booking
+total_nights,int64,0,0.0,41,Total malam menginap
+agent_masked,object,11958,13.8,333,ID agent yang sudah di-hash
+company_masked,object,81468,94.03,347,ID company yang sudah di-hash
+country_masked,object,442,0.51,24,Kode negara yang dimasking
